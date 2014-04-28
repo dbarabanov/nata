@@ -1,0 +1,23 @@
+/** Changes background color, height and margin of the border **/
+.top-bar {
+    background: gray;
+}
+ /** Removes black background on menu bar **/
+.top-bar-section {
+	background: blue;
+	text-transform: uppercase;
+}
+ 
+/** Removes black background on menu bar **/
+.top-bar-section ul li{
+	background: blue;
+	text-transform: uppercase;
+}
+ 
+/** Removes black background on menu item **/
+/*.top-bar-section li:not(.has-form) a:not(.button)*/
+.top-bar-section li:not(.has-form) a:not(.button){
+/*.top-bar-section li a:not(.button) {*/
+	color: red;
+	background: blue;
+}
