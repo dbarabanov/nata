@@ -1,23 +1,28 @@
-/** Changes background color, height and margin of the border **/
 .top-bar {
-    background: gray;
+	background: #085A78;
 }
- /** Removes black background on menu bar **/
+
 .top-bar-section {
 	background: blue;
 	text-transform: uppercase;
 }
- 
-/** Removes black background on menu bar **/
-.top-bar-section ul li{
-	background: blue;
+
+.contain-to-grid {
+	background: white;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: #008CBA;
 	text-transform: uppercase;
 }
- 
-/** Removes black background on menu item **/
-/*.top-bar-section li:not(.has-form) a:not(.button)*/
-.top-bar-section li:not(.has-form) a:not(.button){
-/*.top-bar-section li a:not(.button) {*/
-	color: red;
-	background: blue;
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #bc74ed;
+}
+
+.orbit-slides-container img {
+	min-width: 100%;
+	height: auto;
 }
