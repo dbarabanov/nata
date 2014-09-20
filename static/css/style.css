@@ -1,12 +1,12 @@
 .top-bar {
-	background: linear-gradient(to right, #085A78, white);
+	background: linear-gradient(to right, blue, white);
 	min-width:100%;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .top-bar-section {
 	background: blue;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .contain-to-grid {
@@ -16,12 +16,12 @@
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
-	background: #008CBA;
+	background: blue;
 	/* text-transform: uppercase; */
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background: #bc74ed;
+	background: rgba(0, 0, 255, 0.8);
 }
 
 .orbit-slides-container img {
@@ -49,15 +49,42 @@
 }
 
 .row1 h1 {
-    color: #34EE59;
-	position: absolute;
+	font-family: cursive; 
+    color: #F8E50C;
+	/* position: absolute; */
+	position: relative;
 	vertical-align: middle;
 	left: 30%;
 	top:30%;
 }
 
 .row2 {
-	background: linear-gradient(to right, #1af2eb, white);
+	background: linear-gradient(to right, rgba(0, 0, 255, 0.8), white);
+	/* min-height:60%; */
+	/* height: auto; */
+	/* position: relative; */
+	/* position: relative; */
+}
+
+.row2 div {
+	/* top: 5%; */
+	/* bottom: 5%; */
+	/* left: 5%; */
+	/* position: absolute; */
+	/* position: relative; */
+	/* vertical-align: middle; */
+	/* max-height: 100%; */
+	/* max-width: 100%; */
+	/* display: inline-block; */
+	/* overflow: auto; */
+	margin: 5%;
+}
+
+.row {
 	min-width:100%;
-	min-height:60%;
+}
+.popup-gallery img {
+margin: 4px;
+height: 200px;
+width: auto;
 }
