@@ -21,7 +21,8 @@
 			<ul class="left">
 				<li><a href="#">About</a></li>
 				<li><a href="#row2">Gallery</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#row3">Artist</a></li>
+				<li><a href="#row4">Contact</a></li>
 			</ul>
 			</section>
 			</nav>
@@ -45,12 +46,22 @@
 				<a href="img/3.jpg" title="3"><img src="img/3.jpg"/></a>
 			</div>
 		</div>
-		<div class="row">
-			<ul data-orbit>
-				<li><img src="img/1.jpg" alt="1"></li>
-				<li><img src="img/2.jpg" alt="2"></li>
-				<li><img src="img/3.jpg" alt="3"></li>
-			</ul>
+		<div class="row row3" id="row3">
+			<div class="small-6 columns about-artist">
+				<h1 class="large-text-center">Nataliya Tyaglo</h1>
+				<h4 class="large-text-center">Based in San Francisco</h4>
+				<h4 class="large-text-center">Artist website: <a href="http://www.NataliyaTyaglo.com">NataliyaTyaglo.com</a></h4>
+			</div>
+			<div class="small-6 columns">
+				<ul data-orbit data-options="animation_speed:2000; timer_speed: 5000; resume_on_mouseout: true;">
+					<li><img src="img/smile.jpg" alt="smile"></li>
+					<li><img src="img/napa.jpg" alt="napa"></li>
+					<li><img src="img/promo.jpg" alt="promo"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row row4" id="row4">
+			<p align="right">Email: info@weddinglivepainting.com</p>
 		</div>
 
 		<script src="js/vendor/jquery.js"></script>
@@ -80,18 +91,18 @@ return item.el.attr('title');
 }
 });
 					});
-</script>
+				</script>
 
-<footer class="row">
-<div class="large-12 columns">
-	<hr />
-	<div class="row">
-		<div class="large-12 columns">
-			<p>&copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Nataliya Tyaglo</p>
-		</div>
-	</div>
-</div> 
-</footer>
+				<footer class="row">
+				<div class="large-12 columns">
+					<hr />
+					<div class="row">
+						<div class="large-12 columns">
+							<p>&copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Nataliya Tyaglo</p>
+						</div>
+					</div>
+				</div> 
+				</footer>
 
 			</body>
 		</html>

@@ -25,11 +25,11 @@
 }
 
 .orbit-slides-container img {
-	min-width: auto;
+	/* min-width: auto; */
 	/* min-width: 100%; */
-	margin: 0 auto;
-	height: 400px;
-	/* height: auto; */
+	/* margin: 0 auto; */
+	/* height: 400px; */
+	height: auto;
 }
 
 .row1 {
@@ -83,8 +83,23 @@
 .row {
 	min-width:100%;
 }
+
 .popup-gallery img {
-margin: 4px;
-height: 200px;
-width: auto;
+	margin: 4px;
+	height: 200px;
+	width: auto;
+}
+
+.row3 {
+	background: linear-gradient(to right, rgba(0, 255, 0, 0.8), white);
+}
+
+.about-artist{
+	min-height: 100%;
+	vertical-align: middle;
+}
+
+.row3 h1 {
+	font-family: cursive; 
+    color: blue;
 }
