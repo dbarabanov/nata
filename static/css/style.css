@@ -36,7 +36,8 @@
 	min-width:100% !important;
 	min-height:100% !important;
 	/* background-color:red; */
-	background: url(../img/lecya.jpg) no-repeat center top fixed; 
+	/* background: url(../img/lecya.jpg) no-repeat center top fixed;  */
+	background: url(../img/napa.jpg) no-repeat center top fixed; 
     background-size: cover;
 }
 
