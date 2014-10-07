@@ -29,7 +29,7 @@
 		</div>
 		<div class="row row1">
 			<div class="small-4 columns">
-				<!-- <h1 class="text-center">Your wedding</br>painted live</h1> -->
+				<h1 class="text-center">Your wedding</br>painted live</h1>
 			</div>
 		</div>
 		<div class="row row2" id="row2">
@@ -98,6 +98,7 @@
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/foundation.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script> 
+		<script src="js/jquery.scrollTo.min.js"></script> 
 		<script>
 			$(document).foundation();
 		</script>
@@ -122,18 +123,27 @@ return item.el.attr('title');
 }
 });
 					});
-</script>
+				</script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+        $("nav a").click(function(evn){
+            evn.preventDefault();
+            $('html,body').scrollTo(this.hash, this.hash); 
+        });
 
-<footer class="row">
-<div class="large-12 columns">
-	<hr />
-	<div class="row">
-		<div class="large-12 columns">
-			<p>&copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Nataliya Tyaglo</p>
-		</div>
-	</div>
-</div> 
-</footer>
+    });
+					</script>
 
-			</body>
-		</html>
+					<footer class="row">
+					<div class="large-12 columns">
+						<hr />
+						<div class="row">
+							<div class="large-12 columns">
+								<p>&copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Nataliya Tyaglo</p>
+							</div>
+						</div>
+					</div> 
+					</footer>
+
+				</body>
+			</html>
